@@ -1,0 +1,112 @@
+%% \begin{figure}[h]
+
+
+%% \includegraphics[width=3.4in]{/home/fh/sci/lab/aniso_netw/data/plos_img/217066f4.pdf} %?? R!!
+%% \includegraphics[width=1.7in]{/home/fh/load/frequency_try_tanfit.pdf}
+
+%% \includegraphics[width=3.4in]{/home/fh/sci/lab/aniso_netw/data/plos_img/5580e5db.pdf} %?? R!!
+%% \includegraphics[width=1.7in]{/home/fh/load/frequency_try_tanfit.pdf}
+%% \includegraphics[width=3.4in]{/home/fh/sci/lab/aniso_netw/data/plos_img/7c211d09.pdf} %?? R!
+%% \includegraphics[width=1.7in]{/home/fh/load/frequency_try_tanfit.pdf}
+
+%% \includegraphics[width=5.44in]{/home/fh/sci/lab/aniso_netw/data/plos_img/33e7fb1d.pdf}
+%% \caption{{\bf LOOK AT DIMENSIONS (PLOSMAIN) BEFORE MAKING FIGURE Strong influence of anisotropy on the neuro cluster counts}
+%% A-C: Important: No 3 neuron motifs with 6 edges in tuned anisotropic
+%% graphs registered}
+%% \label{fig_cluster}%?? proper label s
+%% \end{figure}
+
+
+
+%\documentclass[crop=true,border=0,convert={density=600}]{standalone}
+\documentclass[crop=true,border=0]{standalone}
+
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{overpic}
+\usepackage{tgheros}
+\usepackage[export]{adjustbox}
+\usepackage{calc}
+
+\renewcommand*{\familydefault}{\sfdefault}
+
+
+\begin{document}
+
+\def\xin{5}
+\def\yin{87.5}
+\def\wx{3.4in}
+\def\wy{1.7in}
+
+\Large \bfseries
+
+\begin{tabular}{cc} 
+
+  \begin{overpic}[width=\wx]%
+    {/home/fh/sci/lab/aniso_netw/data/plos_img/217066f4.pdf} %?? 
+    \put(\xin,\yin){\fboxsep=3pt\colorbox{white}{A}}
+  \end{overpic}
+
+  \begin{overpic}[width=\wy]%
+    {/home/fh/load/frequency_try_tanfit.pdf}
+    \put(\xin,\yin){\fboxsep=3pt\colorbox{white}{B}}
+  \end{overpic}
+  \\
+
+  \begin{overpic}[width=\wx]%
+    {/home/fh/sci/lab/aniso_netw/data/plos_img/217066f4.pdf} %?? 
+    \put(\xin,\yin){\fboxsep=3pt\colorbox{white}{A}}
+  \end{overpic}
+  
+  \begin{overpic}[width=\wy]%
+    {/home/fh/load/frequency_try_tanfit.pdf}
+    \put(\xin,\yin){\fboxsep=3pt\colorbox{white}{B}}
+  \end{overpic}
+
+  \\
+  
+  \begin{overpic}[width=\wx]%
+    {/home/fh/sci/lab/aniso_netw/data/plos_img/217066f4.pdf} %?? 
+    \put(\xin,\yin){\fboxsep=3pt\colorbox{white}{A}}
+  \end{overpic}
+  
+  \begin{overpic}[width=\wy]%
+    {/home/fh/load/frequency_try_tanfit.pdf}
+    \put(\xin,\yin){\fboxsep=3pt\colorbox{white}{B}}
+  \end{overpic}
+
+  \\
+
+  \multicolumn{2}{c}{
+      \begin{overpic}[width=\wx+\wy]%
+        {/home/fh/sci/lab/aniso_netw/data/plos_img/33e7fb1d.pdf} %?? 
+        \put(\xin,\yin){\fboxsep=3pt\colorbox{white}{A}}
+      \end{overpic}
+  }
+  
+  %% \\
+
+  %% \begin{overpic}[width=\w-0.21in, cframe= white 1pt 0in 0.0975in]%
+  %%   {raw/distance_rewire_L3.pdf}
+  %%   \put(\xin,\yin){\fboxsep=3pt\colorbox{white}{E}}
+  %% \end{overpic}
+
+  %% \begin{overpic}[width=\w-0.21in, cframe= white 1pt 0in 0.0975in]%
+  %%   {raw/distance_rewire_L4.pdf}
+  %%   \put(\xin,\yin){\fboxsep=3pt\colorbox{white}{F}}
+  %% \end{overpic}
+
+  %% \begin{overpic}[width=\w]%
+  %%   {raw/0b6c065b.pdf}
+  %%   \put(\xin,\yin){\fboxsep=3pt\colorbox{white}{G}}
+  %% \end{overpic}
+  
+  %% \begin{overpic}[width=\w]%
+  %%   {raw/ecc48ba4.pdf}
+  %%   \put(\xin,\yin){\fboxsep=3pt\colorbox{white}{wrong plots!}}
+  %% \end{overpic}
+
+\end{tabular}	
+
+
+\end{document}
