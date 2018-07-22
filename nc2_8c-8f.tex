@@ -1,0 +1,46 @@
+%\documentclass[crop=true,border=0,convert={density=600}]{standalone}
+\documentclass[margin={-0.65cm 0cm 0cm 0cm}]{standalone}
+
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{overpic}
+\usepackage{tgheros}
+\usepackage[export]{adjustbox}
+\usepackage{calc}
+
+\renewcommand*{\familydefault}{\sfdefault}
+
+
+\begin{document}
+
+\def\xin{2.}
+\def\yin{42.}
+\def\xfin{3.5}
+\def\yfin{84.26}
+\def\wx{3.4in}
+\def\wy{1.7in}
+
+\small \bfseries
+
+\setlength{\tabcolsep}{2pt}
+
+\begin{tabular}{cc} 
+
+ 
+  \begin{overpic}[width=\wx]%, frame=1pt]%
+    {/home/fh/sci/lab/aniso_netw/ploscb_18/fig/main/fig5E_8cluster_counts.pdf}
+    %\put(\xin,\yin){B}
+  \end{overpic}
+
+  &
+
+  \begin{overpic}[width=\wy]%, frame=1pt]%
+    {/home/fh/sci/lab/aniso_netw/ploscb_18/fig/main/fig5F_8cluster_frequency.pdf}
+    %\put(\xfin,\yfin){B}
+  \end{overpic}
+
+
+\end{tabular}	
+
+
+\end{document}
